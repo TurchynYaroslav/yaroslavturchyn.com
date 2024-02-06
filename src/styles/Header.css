@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 115px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Nav__brand {
+    display: flex;
+    width: 300px;
+    padding: 0px 5px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.Nav__logo {
+    filter: drop-shadow(5px 5px 5px rgba(5, 255, 0, 0.25));
+}
+
+.Nav__title {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+
+.Nav__item-wrapper {
+    display: flex;
+    width: 350px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    list-style-type: none;
+}
+
+.Nav__item {
+    cursor: pointer;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.1px;
+}
+
+.Nav__link {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
