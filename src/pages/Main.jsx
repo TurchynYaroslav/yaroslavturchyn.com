@@ -1,9 +1,10 @@
 import React from "react";
 import "../styles/Main.css";
+import "../styles/App.css";
 import { Link } from "react-router-dom";
 const Main = () => {
   return (
-    <div className="main__page">
+    <div className="main__page page">
       <div className="main__desc_block">
         <h1 className="main__title">
           I'm Yaroslav, software engineer and web developer.

@@ -1,0 +1,139 @@
+.stack__page {
+    justify-content: center;
+    align-items: center;
+}
+
+.stack__div {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background: #0D1928;
+    border-radius: 20px;
+}
+
+.stack__nav {
+    display: flex;
+    flex-direction: column;
+    background: #263241;
+    height: 100%;
+    width: 17%;
+    border-radius: 20px 0 0 20px;
+}
+
+.stack__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.stack__title h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+
+.stack__items_wrapper {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0 35px 15px;
+    justify-content: space-between;
+    width: 100%;
+    height: 85%;
+}
+
+.stack__item {
+    list-style: none;
+    padding: 20px 25px;
+    text-align: center;
+    cursor: default;
+
+    font-size: 24px;
+    border-radius: 20px 0 0 20px;
+    color: #E7E8EA;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+
+.unactive {
+    background: none;
+    transition: 0.5s;
+}
+
+.unactive:hover {
+    background: #0B1623;
+}
+
+.active {
+    background: #0D1928;
+}
+
+.stack__win {
+    padding: 75px 30px 50px 30px;
+}
+
+.stack__win_div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stack__techs {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    gap: 125px;
+    justify-content: flex-start;
+    padding: 25px;
+    border-left: 10px solid #00C6BA;
+    border-radius: 10px;
+}
+
+.stack__tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stack__tech img {
+    max-width: 85px;
+    max-height: 85px;
+}
+
+.stack__tech p {
+    font-size: 24px;
+}
+
+.stack__desc_techs {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 25px;
+    border-left: 10px solid #F97700;
+    border-radius: 10px;
+}
+
+.stack__desc_techs h1 {
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.stack__desc_techs p {
+    font-size: 18px;
+    font-weight: 400;
+}

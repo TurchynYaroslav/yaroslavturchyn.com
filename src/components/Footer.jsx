@@ -5,9 +5,27 @@ const Footer = () => {
     <div className="footer">
       <p className="footer__auth">© Yaroslav Turchyn 2024</p>
       <div className="footer__social_items">
-        <a href="">Github</a>
-        <a href="">Twitter</a>
-        <a href="">Instagram</a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/TurchynYaroslav/"
+        >
+          Github
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://twitter.com/nehxbyaroslav"
+        >
+          Twitter
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/nehx.by?igsh=MTF3dDRhYWZlamx4cg=="
+        >
+          Instagram
+        </a>
       </div>
     </div>
   );
